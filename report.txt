@@ -1,0 +1,5 @@
+✓ Shape: 950 rows, 20 columns
+✓ Missing values: City(5.368%), SuperOver(0.421%), WinningTeam(0.421%), Margin(1.895%), method(98.0%), Player_of_Match(0.421%)
+✓ Duplicates: 0 rows
+✓ Dtypes: 2 numeric, 18 categorical
+✓ Suspicious values: method(931rows are null)
