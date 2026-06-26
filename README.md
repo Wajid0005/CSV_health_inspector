@@ -19,7 +19,7 @@ This was built to learn how classes and functions interconnect across files and 
 
 ## Architecture and File Map
 
-- `app.py`
+- `main.py`
   - FastAPI application with endpoints:
     - `GET /` for a health message
     - `POST /analyze` for file analysis
@@ -63,7 +63,7 @@ Responsibilities:
 
 - `loader.py` handles input and file loading concerns.
 - `analyzer.py` handles inspection logic and report assembly.
-- `app.py` handles API request/response flow.
+- `main.py` handles API request/response flow.
 - `inspector.py` handles command-line/script execution and artifact creation.
 
 This separation keeps responsibilities clear and makes the project easier to expand.
@@ -84,7 +84,7 @@ pip install pandas fastapi uvicorn openpyxl
 ### Run the API
 
 ```bash
-uvicorn app:app --reload
+uvicorn main:app --reload
 ```
 
 Then visit:
